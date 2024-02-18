@@ -2,9 +2,11 @@
 a simple rate limit
 
 
-# start Redis
+# start redis docker
 
+```bash
 docker run -d -p 6379:6379 --name rd redis
+```
 
 # test command execution
 
